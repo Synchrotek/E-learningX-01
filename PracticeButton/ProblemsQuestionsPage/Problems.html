@@ -1,21 +1,78 @@
-<!-- This is page is for the landing page after clicking the Problems/questions button -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Problems/Questions</title>
+    <link rel="stylesheet" href="Problemss.css">
 </head>
-<link rel="stylesheet" href="Problemss.css">
+
 <body>
     <header>
         <div class="content">
-          <hgroup>
-            <h1>Problems and Questions</h1>
-            
-          </hgroup>
+            <hgroup>
+                <h1>Problems and Questions</h1>
+            </hgroup>
         </div>
         <div class="overlay"></div>
-      </header>
+    </header>
+
+    <!-- Create sections for different difficulty levels -->
+    <section class="difficulty-level easy">
+        <h2>Easy Questions</h2>
+        <!-- MCQ Question -->
+        <h3>MCQ Question 1: What is the output of the following code?</h3>
+        <ul>
+            <li><input type="radio" name="mcq1"> Option A: 42</li>
+            <li><input type="radio" name="mcq1"> Option B: 24</li>
+            <li><input type="radio" name="mcq1"> Option C: Error</li>
+            <li><input type="radio" name="mcq1"> Option D: None of the above</li>
+        </ul>
+
+        <!-- Normal Programming Question -->
+        <h3>Normal Question : Write a Python function to calculate the factorial of a number.</h3>
+        <textarea name="programming-response" rows="5" cols="40"></textarea>
+        <button type="submit" class="submit-button">Submit</button>
+    </section>
+
+    <section class="difficulty-level moderate">
+        <h2>Moderate Questions</h2>
+        <!-- MCQ Question -->
+        <h3>MCQ Question 1: Which of the following is not a programming language?</h3>
+        <ul>
+            <li><input type="radio" name="mcq2"> Option A: Python</li>
+            <li><input type="radio" name="mcq2"> Option B: BananaScript</li>
+            <li><input type="radio" name="mcq2"> Option C: Java</li>
+            <li><input type="radio" name="mcq2"> Option D: C++</li>
+        </ul>
+            
+        
+        <!-- Repeat similar structure for moderate and hard sections -->
+        
+        <!-- Normal Programming Question -->
+        <h3>Normal Question 1: Write a Java program to find the sum of all even numbers between 1 and 100.</h3>
+        <textarea name="programming-response" rows="5" cols="40"></textarea>
+        <button type="submit" class="submit-button">Submit</button>
+    </section>
+
+    <section class="difficulty-level hard">
+        <h2>Hard Questions</h2>
+        <!-- MCQ Question -->
+        <h3>MCQ Question 1: Which data structure is used to implement priority queues?</h3>
+        <ul>
+            <li><input type="radio" name="mcq3"> Option A: Stack</li>
+            <li><input type="radio" name="mcq3"> Option B: Queue</li>
+            <li><input type="radio" name="mcq3"> Option C: Heap</li>
+            <li><input type="radio" name="mcq3"> Option D: Linked List</li>
+        </ul>
+
+        <!-- Normal Programming Question -->
+        <h3>Normal Question 1: Implement a binary search tree in C++.</h3>
+        <textarea name="programming-response" rows="5" cols="40"></textarea>
+        <button type="submit" class="submit-button">Submit</button>
+    </section>
+
 </body>
+
 </html>
