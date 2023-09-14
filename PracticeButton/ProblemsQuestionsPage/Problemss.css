@@ -8,7 +8,7 @@ header {
     height: 40%;
     position: relative;
     overflow: hidden;
-    background: url(https://source.unsplash.com/random?laptop) center no-repeat;
+    background: url(https://rb.gy/a4lp2) center no-repeat;
     /* Image Credit: Unsplash.me */
     background-size: cover;
     opacity: 80%;
@@ -57,3 +57,5 @@ header hgroup {
   img{
     margin-right:20px
   }
+
+
