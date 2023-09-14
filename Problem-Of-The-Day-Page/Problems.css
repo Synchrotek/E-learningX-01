@@ -1,0 +1,91 @@
+/* Apply styles to the header section */
+body {
+    background-image: url('https://rb.gy/in3cp');
+    background-size: cover; /* This will cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Fixed background */
+    /* You can also add additional styles like background-position if needed */
+}
+
+header {
+    text-align: center;
+    background-color: #212121;
+    color: white;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 18px;
+  }
+  
+  /* Style the main section */
+  main {
+    padding: 20px;
+  }
+  
+  /* Style the problem section */
+  .problem {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .problem h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .problem p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the code editor container */
+  .code-editor {
+    height: 400px; /* Set the desired height for the code editor */
+    border: 1px solid #ddd;
+    margin-top: 20px;
+  }
+  
+  /* Style the output display */
+  .output {
+    margin-top: 20px;
+  }
+  
+  .output h2 {
+    font-size: 24px;
+  }
+  
+  /* Style the run button */
+  #run-button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #212121;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Titillium Web';
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  #run-button:hover {
+    background-color: cyan;
+    border-radius: 20px;
+  }
+  
+.user-manual{
+    border: 2px solid white;
+    background-color: white;
+    padding: 2px solid;
+}
