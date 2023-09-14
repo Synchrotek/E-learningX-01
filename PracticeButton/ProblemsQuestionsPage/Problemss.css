@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+header {
+    height: 40%;
+    position: relative;
+    overflow: hidden;
+    background: url(https://rb.gy/a4lp2) center no-repeat;
+    /* Image Credit: Unsplash.me */
+    background-size: cover;
+    opacity: 80%;
+  }
+  header .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+
+}
+header h1 {
+  margin: 0;
+}
+header hgroup {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    border: 5px solid #fff;
+    padding: .5em 3em;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  header .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background:#333 center no-repeat;
+    background-size: cover;
+    z-index: 0;
+    opacity: 0;  -webkit-filter: blur(4px);
+  }
+  img{
+    margin-right:20px
+  }
+
+
