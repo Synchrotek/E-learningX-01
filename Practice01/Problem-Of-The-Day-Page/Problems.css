@@ -1,12 +1,4 @@
 /* Apply styles to the header section */
-body {
-    background-image: url('https://rb.gy/in3cp');
-    background-size: cover; /* This will cover the entire viewport */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    background-attachment: fixed; /* Fixed background */
-    /* You can also add additional styles like background-position if needed */
-}
-
 header {
     text-align: center;
     background-color: #212121;
