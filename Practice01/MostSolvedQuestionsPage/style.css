@@ -1,3 +1,5 @@
+
+
 .above_the_fold_ * {
   font-family: Nunito, sans-serif;
 }
@@ -99,7 +101,7 @@
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 16px;
-  margin-left: 0px;
+  margin-left: 339px;
   font-weight: 700;
   max-width: 300px;
 }
@@ -115,33 +117,7 @@
   margin-left: 0px;
 }
 
-.above_the_fold_ .button {
-  height: 60px;
-  max-width: 250px;
-  width: 100%;
-  background-color: #f49892;
-  font-size: 20px;
-  font-weight: 700;
-  color: white;
-  border-top-width: 2px;
-  border-right-width: 2px;
-  border-bottom-width: 2px;
-  border-left-width: 2px;
-  border-top-style: none;
-  border-right-style: none;
-  border-bottom-style: none;
-  border-left-style: none;
-  border-top-color: #767676;
-  border-right-color: #767676;
-  border-bottom-color: #767676;
-  border-left-color: #767676;
-  border-image-source: initial;
-  border-image-slice: initial;
-  border-image-width: initial;
-  border-image-outset: initial;
-  border-image-repeat: initial;
-  padding: 10px 60px 10px 60px;
-}
+
 
 .above_the_fold_ .svg.cloud2 {
   top: 120px;
@@ -171,10 +147,10 @@
   margin-left: 0px;
 }
 
-.above_the_fold_ .card {
+.above_the_fold_ .card {   /*card*/
   display: flex;
   padding-top: 30px;
-  padding-right: 25px;
+  padding-right: -41px;
   padding-bottom: 30px;
   padding-left: 25px;
   align-items: flex-start;
@@ -184,6 +160,8 @@
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   background-color: white;
+  overflow: hidden
+
 }
 
 .above_the_fold_ .points-svg {
@@ -202,12 +180,14 @@
   margin-right: 0px;
   margin-bottom: 10px;
   margin-left: 0px;
+  overflow: hidden;
 }
 
 .above_the_fold_ .text-blk.card-subhead {
   color: #999999;
   font-size: 20px;
   line-height: 28px;
+  overflow: hidden;
 }
 
 .above_the_fold_ .learning-img {
@@ -253,12 +233,7 @@
     padding-left: 50px;
   }
 
-  .above_the_fold_ .text-blk.section-subhead-text {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 25px;
-    margin-left: 0px;
-  }
+  
 
   .above_the_fold_ .responsive-cell-block.wk-desk-6.wk-ipadp-6.wk-tab-12.wk-mobile-12 {
     display: none;
