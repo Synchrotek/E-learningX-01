@@ -1,12 +1,13 @@
 /* Apply styles to the header section */
 header {
   text-align: center;
-  background-color: #212121;
+  background-color: rgb(121,99,224);
+  background-size: contain;
   color: white;
-  padding: 20px;
+  padding: 50px;
 }
 body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-color: white;
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
@@ -202,4 +203,11 @@ main {
   }
 
   /* Add more styles for large screens here */
+}
+
+#PROB{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
 }
